@@ -30,7 +30,7 @@ class App extends Component {
             <Switch>
               <Route exact path={`/movies/:movieID`} render={routerProps => <Movie {...routerProps} movies={this.state.movies}/>} />
               <Route exact path="/" render={() => 
-                <div>
+                <div >
                 <strong><h1>Studio Ghibli</h1></strong>
                 <p>
                 Studio Ghibli was founded in 1985 by animated film directors Isao Takahata and Hayao Miyazaki, and has produced twenty-two feature-length films.  Most Studio Ghibli films ranked number one at the box office in Japan in the year in which they were released.  SPIRITED AWAY, directed by Hayao Miyazaki and released in 2001, is the all-time highest grossing film in Japan, earning over 30 billion yen at the box office. 
